@@ -2,31 +2,33 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/branco"
-
-    tools:context=".PrincipalActivity">
-
+    tools:context=".GravarActivity">
 
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginVertical="20dp"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/marcar"
-        android:onClick="selecionagravar"
+        android:background="@drawable/mapacarro"
 
         />
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/buscar"
-        android:layout_marginVertical="170dp"
-        android:onClick="selecionabuscar"
 
+
+
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/botaovoltar"
+        android:onClick="voltarinicio"
         />
     <Button
         android:layout_width="70dp"
@@ -39,13 +41,6 @@
         android:onClick="finalizar"
 
         />
-
-
-
-
-
-
-
 
 
 

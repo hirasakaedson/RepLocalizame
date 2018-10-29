@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GravarActivity" />
+        <activity android:name=".BuscarActivity"></activity>
     </application>
 
 </manifest>
