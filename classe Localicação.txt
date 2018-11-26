@@ -1,0 +1,1 @@
+latitude, logitude, data, hora, status
