@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">localizame</string>
+<<<<<<< HEAD
     <string name="title_activity_maps">Map</string>
+=======
+>>>>>>> master
 </resources>
